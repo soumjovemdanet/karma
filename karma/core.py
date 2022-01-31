@@ -14,7 +14,7 @@ class pwndb(object):
     """Docstring for pwndb. """
 
     def __init__(self, args):
-        self.domain = 'http://pwndb2am4tzkvold.onion/'
+        self.domain = 'https://haveibeenpwned.com/'
         self.args = args
         self.data = {
             'luseropr'  : 0,
